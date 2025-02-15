@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Pyidaungsu";
+  src: url("./assets/fonts/pyitaungsu_regular.ttf");
+  font-weight: 600;
+}
+
+*{
+  font-family: "Pyidaungsu", sans-serif;
+}
+
+.active-item{
+  background-color: rgba(79, 0, 0, 0.363) !important;
+  color: rgb(255, 255, 255) !important;
+}
