@@ -75,7 +75,7 @@ const MenuBar = ({ path }) => {
                         key={item.key}
                         icon={item.icon && React.cloneElement(item.icon, { className: 'text-light' })}
                         title={
-                            <div className="d-flex justify-content-between align-items-center text-light">
+                            <div className="d-flex justify-content-between align-items-center text-white">
                                 <span>{item.label}</span>
                             </div>
                         }
@@ -86,7 +86,7 @@ const MenuBar = ({ path }) => {
                                 icon={child.icon && React.cloneElement(child.icon, { className: 'text-light' })}
                                 className={currentKey === child.key ? 'active-item' : ''}
                             >
-                                <div className="text-light">
+                                <div className="text-white">
                                     {child.label}
                                 </div>
                             </Menu.Item>
@@ -98,7 +98,7 @@ const MenuBar = ({ path }) => {
                         icon={item.icon && React.cloneElement(item.icon, { className: 'text-light' })}
                         className={currentKey === item.key ? 'active-item' : ''}
                     >
-                        <div className="text-light">
+                        <div className="text-white">
                             {item.label}
                         </div>
                     </Menu.Item>
